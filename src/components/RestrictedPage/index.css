@@ -1,0 +1,75 @@
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  width: 350px;
+  height: 250px;
+  background-color: rgb(171, 222, 245);
+  border-radius: 20px;
+}
+
+.Form--name {
+  font-size: 22px;
+  font-style: oblique;
+  font-weight: 500;
+  margin-top: 0;
+  color: rgb(0, 4, 255);
+}
+
+.Form--button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(1, 35, 49);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.Form--button:hover {
+  background-color: rgb(9, 0, 128);
+  transition: 0.5s;
+}
+.Form--logado {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  width: 350px;
+  height: 250px;
+  background-color: rgb(253, 185, 250);
+  border-radius: 20px;
+}
+
+.logado--name {
+  font-size: 22px;
+  font-style: italic;
+  font-weight: 500;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 0;
+  color: rgb(37, 0, 34);
+}
+
+.logado--button {
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(87, 1, 48);
+  font-size: 18px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.logado--button:hover {
+  background-color: rgb(190, 4, 166);
+  transition: 0.5s;
+}
