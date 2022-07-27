@@ -5,7 +5,7 @@ import RestrictedPage from "./components/RestrictedPage";
 function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
-  const user = "Susimara";
+  const user = "Lucas";
 
   function login() {
     setIsLoggedIn(true);
